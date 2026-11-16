@@ -10,14 +10,14 @@ import ReadBlog from '../../components/pages/home/ReadBlog'
 function HomeIndex() {
   return (
     <>
-      <Navbar />
+
       <Banner />
       <Relevants />
       <Benefits />
       <UpcomingSermons />
       <ServeTheWorld />
       <ReadBlog />
-      <Footer />
+
     </>
   )
 }

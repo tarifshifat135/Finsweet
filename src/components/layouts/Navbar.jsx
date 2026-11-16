@@ -16,6 +16,8 @@ function NavLinks({ links, onLinkClick, className = '' }) {
     )
 }
 
+
+
 function Navbar({ logo = '{finsweet', logoHref = '/', links = menuData, contactLabel = 'Contact Us', contactHref = '#contact' }) {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     function closeMenu() {

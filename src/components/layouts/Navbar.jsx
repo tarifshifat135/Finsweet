@@ -30,7 +30,7 @@ function Navbar({ logo = '{finsweet', logoHref = '/', links = menuData, contactL
                 <Link to={logoHref} onClick={closeMenu} className="text-xl font-bold tracking-tight" aria-label={`${logo} home`}>
                     {logo}
                 </Link>
-
+                
                 <div className="hidden items-center gap-8 lg:flex">
                     <NavLinks links={links} className="flex items-center gap-8" />
                     <Link to={contactHref} className="inline-flex items-center justify-center rounded-md bg-brand-peach px-6 py-3 text-xs font-semibold uppercase tracking-wide text-brand-ink transition-colors hover:bg-brand-peach-hover">
